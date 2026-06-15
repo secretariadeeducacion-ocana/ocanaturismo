@@ -1,0 +1,58 @@
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        terracota: {
+          50: '#fdf4f0',
+          100: '#fbe5d8',
+          200: '#f8cab0',
+          300: '#f3a680',
+          400: '#ec7a4e',
+          500: '#e55a2b',
+          600: '#d44220',
+          700: '#b0321b',
+          800: '#8d2a1c',
+          900: '#72261b',
+        },
+        dorado: {
+          50: '#fefdf0',
+          100: '#fdf7d0',
+          200: '#faec9e',
+          300: '#f5dc64',
+          400: '#edc83a',
+          500: '#d9ac1e',
+          600: '#b98914',
+          700: '#946713',
+          800: '#785116',
+          900: '#654316',
+        },
+        bosque: {
+          50: '#f2f7f2',
+          100: '#e0ede0',
+          200: '#c2dbc3',
+          300: '#96c198',
+          400: '#64a167',
+          500: '#428445',
+          600: '#326834',
+          700: '#285329',
+          800: '#224324',
+          900: '#1c3720',
+        },
+      },
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
+
+export default config
