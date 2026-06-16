@@ -56,7 +56,7 @@ export default function InstitucionalPage() {
               <div>
                 <h3 className="font-semibold text-gray-800 mb-3">Contacto</h3>
                 <address className="not-italic text-gray-600 space-y-2 text-sm">
-                  <p><strong>Secretario:</strong> Doiler Alfonso Sanjuán Sánchez</p>
+                  <p><strong>Secretario de Educación, Cultura y Turismo:</strong> Doiler Alfonso Sanjuán Sánchez</p>
                   <p><strong>Coordinación Cultura y Turismo:</strong> Jazmine Beatriz Ibáñez Lozano</p>
                   <p><strong>Dependencia:</strong> Secretaría de Educación, Cultura y Turismo</p>
                   <p><strong>Ubicación:</strong> Complejo Histórico de la Gran Convención</p>
